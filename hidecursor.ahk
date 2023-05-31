@@ -1,8 +1,9 @@
+; Source:   Serenity - https://autohotkey.com/board/topic/32608-changing-the-system-cursor/
+; Modified: iseahound - https://www.autohotkey.com/boards/viewtopic.php?t=75867
+
 Persistent True
 
-
 flag := False
-
 
 ToggleCursor(){
  global flag
@@ -12,8 +13,6 @@ ToggleCursor(){
  }
  flag := !flag
 }
-
-
 
 SetSystemCursor(Cursor := "", cx := 0, cy := 0) {
 
